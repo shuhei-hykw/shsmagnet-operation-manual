@@ -36,12 +36,15 @@ pdf_options:
 
 # Operation Manual for Superconducting Magnet of Hyperon Spectrometer
 
-<div style="text-align: right;">
-March 29, 2025<br>
+March 29, 2025
 Shuhei Hayakawa
-</div>
 
 ## General remarks
 
+ - The magnet paper is https://doi.org/10.1016/j.nima.2022.167775
  - During exciting HS magnet (Helmholtz SC magnet), do not turn on/off, change current of KURAMA magnet. Otherwise, the quench detector is triggered by the induction current due to KURAMA magnet.
  - Do not excite >70A.
+
+## Circuit overview
+
+![circuit](fig/circuit.png){ width=80% .center }
